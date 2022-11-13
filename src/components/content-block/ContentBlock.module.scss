@@ -1,0 +1,15 @@
+.content_block {
+  position: absolute;
+  inset: 0;
+  padding: 12px;
+  transform: translateX(30%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s;
+
+  &.show {
+    transform: none;
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

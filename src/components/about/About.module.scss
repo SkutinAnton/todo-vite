@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+
+  &__title {
+    font-size: 38px;
+    color: #008000;
+    margin-bottom: 36px;
+  }
+
+  &__subtitle {
+    font-size: 32px;
+    width: 70%;
+  }
+}
